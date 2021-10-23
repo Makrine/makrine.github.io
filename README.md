@@ -1,3 +1,3 @@
-# Makrine Tskipurishvili's portfolio website
+# Makrine Tskipurishvili
 
 This is a portfolio website of Makrine Tskipurishvili
