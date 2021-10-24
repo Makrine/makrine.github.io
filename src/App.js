@@ -18,7 +18,7 @@ function App() {
           Hi there, I am Makrine!
           <Typist.Delay ms={700} />
           <br/><br/>
-          I can code
+          I can code.
           </Typist>
         </p>
         <div className="socialIcons">
