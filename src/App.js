@@ -5,6 +5,7 @@ import { GitHub } from 'react-feather';
 import { Facebook } from 'react-feather';
 import { Instagram } from 'react-feather';
 import { Mail } from 'react-feather';
+import Typist from "react-typist";
 
  
 function App() {
@@ -13,7 +14,12 @@ function App() {
       <header className="App-header">
         <img src={pic} className="makrinePic" alt="MakrinePic" />
         <p id="homeText">
+          <Typist>
           Hi there, I am Makrine!
+          <Typist.Delay ms={700} />
+          <br/><br/>
+          I can code.
+          </Typist>
         </p>
         <div className="socialIcons">
           <a
