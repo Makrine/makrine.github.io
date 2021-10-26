@@ -185,6 +185,7 @@ class App extends Component {
             {!this.state.matches && (<Mail color="white" size={18} />)}
           </a> 
         </div>
+        
       </div>
   </div>
   
@@ -194,8 +195,8 @@ class App extends Component {
 
 </body>
 
-<ScrollToTop/>
-        
+<ScrollToTop/> 
+<footer><span className="rights">© 2021 all rights reserved. </span></footer>
     </div>
   );
 }

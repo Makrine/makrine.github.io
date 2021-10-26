@@ -72,6 +72,7 @@ a {
 .content {
   padding: 0 40px;
   position: relative;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .content h2 {
@@ -83,26 +84,8 @@ a {
   letter-spacing: 1px;
   font-size: 18px;
 } 
-/*
- .btn {
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  width: 250px;
-  padding: 10px 60px;
-  border-radius: 5px;
-  margin: 10px 10px;
-  cursor: pointer;
-  font-family: 'Courier New', Courier, monospace;
-} 
- */
-
-
  .wrapper{
-  /* position: fixed; */
   margin-top: 5%;
-  /* margin-left: 20%; */
-  /* transform: translate(-50%, -50%); */
 }
 
 .menu{
@@ -115,12 +98,14 @@ a {
   font-family: "'Courier New', Courier, monospace";
   text-decoration: none;
   color: #fff;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   letter-spacing: 2px;
   text-align: center;
   position: relative;
   transition: all .35s;
   cursor: pointer;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .menu span{
@@ -152,4 +137,14 @@ a {
   bottom: 0.5rem;
   right: 0.5rem;
   cursor: pointer;
+}
+
+footer {
+  color: #fff;
+  background-color: #04101a;
+  padding: 10px 0;
+}
+
+.rights {
+  padding: 0  40px;
 }
