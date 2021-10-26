@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.19702f72.chunk.css",
-    "main.js": "/static/js/main.48795ea1.chunk.js",
-    "main.js.map": "/static/js/main.48795ea1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4be48b07.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4be48b07.js.map",
-    "static/js/2.eda42b7c.chunk.js": "/static/js/2.eda42b7c.chunk.js",
-    "static/js/2.eda42b7c.chunk.js.map": "/static/js/2.eda42b7c.chunk.js.map",
-    "static/js/3.28d10765.chunk.js": "/static/js/3.28d10765.chunk.js",
-    "static/js/3.28d10765.chunk.js.map": "/static/js/3.28d10765.chunk.js.map",
+    "main.css": "/static/css/main.b862dd13.chunk.css",
+    "main.js": "/static/js/main.27cc33c5.chunk.js",
+    "main.js.map": "/static/js/main.27cc33c5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3e3e5442.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3e3e5442.js.map",
+    "static/js/2.b9306efe.chunk.js": "/static/js/2.b9306efe.chunk.js",
+    "static/js/2.b9306efe.chunk.js.map": "/static/js/2.b9306efe.chunk.js.map",
+    "static/js/3.93880224.chunk.js": "/static/js/3.93880224.chunk.js",
+    "static/js/3.93880224.chunk.js.map": "/static/js/3.93880224.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.15e4bf574ab86e2200f3c6f7bf10825d.js": "/precache-manifest.15e4bf574ab86e2200f3c6f7bf10825d.js",
+    "precache-manifest.e58561860b044caa3a1cd94f48ae1ded.js": "/precache-manifest.e58561860b044caa3a1cd94f48ae1ded.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.19702f72.chunk.css.map": "/static/css/main.19702f72.chunk.css.map",
-    "static/js/2.eda42b7c.chunk.js.LICENSE.txt": "/static/js/2.eda42b7c.chunk.js.LICENSE.txt",
-    "static/media/MakrineIco.png": "/static/media/MakrineIco.5dfd7bad.png"
+    "static/css/main.b862dd13.chunk.css.map": "/static/css/main.b862dd13.chunk.css.map",
+    "static/js/2.b9306efe.chunk.js.LICENSE.txt": "/static/js/2.b9306efe.chunk.js.LICENSE.txt",
+    "static/media/MakrineIco.png": "/static/media/MakrineIco.5dfd7bad.png",
+    "static/media/makrine.jpg": "/static/media/makrine.35a0846a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4be48b07.js",
-    "static/js/2.eda42b7c.chunk.js",
-    "static/css/main.19702f72.chunk.css",
-    "static/js/main.48795ea1.chunk.js"
+    "static/js/runtime-main.3e3e5442.js",
+    "static/js/2.b9306efe.chunk.js",
+    "static/css/main.b862dd13.chunk.css",
+    "static/js/main.27cc33c5.chunk.js"
   ]
 }
