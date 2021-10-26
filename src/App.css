@@ -120,7 +120,7 @@ a {
   text-align: center;
   position: relative;
   transition: all .35s;
-
+  cursor: pointer;
 }
 
 .menu span{
