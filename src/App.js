@@ -119,13 +119,21 @@ class App extends Component {
     <div class="box">
       <div class="content" id="education">
     <h2>Education</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>2017</h2>
+          <p>Lorem ipsum..</p>
+        </div>
       </div>
+      <div class="container right">
+        <div class="content">
+          <h2>2016</h2>
+          <p>Lorem ipsum..</p>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
   
     <div class="box">
