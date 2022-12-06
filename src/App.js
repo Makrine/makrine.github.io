@@ -9,6 +9,7 @@ import { Mail } from 'react-feather';
 import Typist from "react-typist";
 import ScrollToTop from "./ScrollToTop.js" 
 import { Link } from 'react-scroll';
+import Timeline from './Timeline';
 
 class App extends Component {
 
@@ -119,20 +120,9 @@ class App extends Component {
     <div class="box">
       <div class="content" id="education">
     <h2>Education</h2>
-    <div class="timeline">
-      <div class="container left">
-        <div class="content">
-          <h2>2017</h2>
-          <p>Lorem ipsum..</p>
-        </div>
-      </div>
-      <div class="container right">
-        <div class="content">
-          <h2>2016</h2>
-          <p>Lorem ipsum..</p>
-        </div>
-      </div>
-    </div>
+
+<Timeline/>
+
     </div>
   </div>
   
