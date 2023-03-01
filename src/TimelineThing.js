@@ -1,16 +1,8 @@
-
-
-
 var React = require('react');
 //You need this npm package to do createReactClass
 var Timeline = require('create-react-class');
 
     module.exports=Timeline({
-        module: {
-            loaders: [
-              { test: /\.css$/, loader: "style-loader!css-loader" },
-            ]
-          },
             render:function(){
                return(
 
@@ -20,24 +12,32 @@ var Timeline = require('create-react-class');
                      <ul class="rb">
                        <li class="rb-item" ng-repeat="itembx">
                          <div class="timestamp">
-                           3rd May 2020<br/> 7:00 PM
+                          2019 - 2023<br/> 
                          </div>
-                         <div class="item-title">Chris Serrano posted a photo on your wall.</div>
+                         <div class="item-title">Bachelor of Engineering in Computer Science at International Black Sea University</div>
                
                        </li>
                        <li class="rb-item" ng-repeat="itembx">
                          <div class="timestamp">
-                           19th May 2020<br/> 3:00 PM
+                          2018 - 2019<br/> 
                          </div>
-                         <div class="item-title">Mia Redwood commented on your last post.</div>
+                         <div class="item-title">Studied Business Administration for one year at Ivane Javakhishvili Tbilisi State University</div>
                
                        </li>
                
                        <li class="rb-item" ng-repeat="itembx">
                          <div class="timestamp">
-                           17st June 2020<br/> 7:00 PM
+                          2016 - 2018<br/>
                          </div>
-                         <div class="item-title">Lucas McAlister just send you a message.</div>
+                         <div class="item-title">Went to #12 Tbilisi Public School</div>
+               
+                       </li>
+
+                       <li class="rb-item" ng-repeat="itembx">
+                         <div class="timestamp">
+                          2006 - 2016<br/>
+                         </div>
+                         <div class="item-title">Went to #2 Terjola Public School</div>
                
                        </li>
                

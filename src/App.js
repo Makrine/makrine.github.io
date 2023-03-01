@@ -1,6 +1,8 @@
 import icon2D from './assets/MakrineIco.png';
 import realPic from './assets/makrine.jpg';
 import './App.css';
+import './TimelineStyle.css';
+import './Hobbies.css';
 import React, { Component } from 'react';
 import { GitHub } from 'react-feather';
 import { Facebook } from 'react-feather';
@@ -9,7 +11,8 @@ import { Mail } from 'react-feather';
 import Typist from "react-typist";
 import ScrollToTop from "./ScrollToTop.js" 
 import { Link } from 'react-scroll';
-import Timeline from './Timeline';
+import Timeline from './TimelineThing';
+import Hobbies from './Hobbies';
 
 class App extends Component {
 
@@ -108,13 +111,8 @@ class App extends Component {
   <div class="box">
     <div class="content" id="whatIDo">
       <h2>What I do</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-    </div>
+      <p>I am a Game Developer</p>
+      </div>
   </div>
   
     <div class="box">
@@ -129,12 +127,7 @@ class App extends Component {
     <div class="box">
       <div class="content" id="hobbies">
         <h2>Hobbies</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias ipsa dolor veritatis quaerat. Amet cum est illo consequuntur exercitationem! A culpa placeat similique iure vero consectetur eos maxime necessitatibus sapiente!</p>
+        <Hobbies/>
       </div>
   </div>
 
@@ -194,7 +187,7 @@ class App extends Component {
 </body>
 
 <ScrollToTop/> 
-<footer><span className="rights">© 2021 all rights reserved. </span></footer>
+<footer><span className="rights">© 2022 all rights reserved. </span></footer>
     </div>
   );
 }
