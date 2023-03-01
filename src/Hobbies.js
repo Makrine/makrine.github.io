@@ -25,7 +25,7 @@ var Hobbies = require('create-react-class');
 		</p>
 		<button>Read more</button>
 	</li>
-	<li>
+	{/* <li>
 		<h2>03</h2>
 		<h3>Title 3</h3>
 		<p>
@@ -43,7 +43,7 @@ var Hobbies = require('create-react-class');
 			including versions of Lorem Ipsum.
 		</p>
 		<button>Read more</button>
-	</li>
+	</li> */}
 </ul>
                  
                 );

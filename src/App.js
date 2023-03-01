@@ -111,7 +111,7 @@ class App extends Component {
   <div class="box">
     <div class="content" id="whatIDo">
       <h2>What I do</h2>
-      <p>I am a Game Developer</p>
+      <p>stuff</p>
       </div>
   </div>
   

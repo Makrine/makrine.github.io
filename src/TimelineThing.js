@@ -14,7 +14,7 @@ var Timeline = require('create-react-class');
                          <div class="timestamp">
                           2019 - 2023<br/> 
                          </div>
-                         <div class="item-title">Bachelor of Engineering in Computer Science at International Black Sea University</div>
+                         <div class="item-title">Bachelor of Computer Science at International Black Sea University</div>
                
                        </li>
                        <li class="rb-item" ng-repeat="itembx">
