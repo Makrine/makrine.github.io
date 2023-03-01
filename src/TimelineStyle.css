@@ -65,5 +65,24 @@ ul.rb li .timestamp {
 
 .item-title {
   color: #fff;
+  margin-top: 3%;
 }
 
+
+.work-desc t{
+  font-size: small;
+  margin-top: 2%;
+  margin-left: 3%;
+  display: list-item;          
+  list-style-position: inside;
+  list-style: square;
+}
+
+a {
+  color: orange;
+  font-weight: bold;
+}
+
+a:visited {
+  color: orange;
+}

@@ -1,8 +1,8 @@
 var React = require('react');
 //You need this npm package to do createReactClass
-var Timeline = require('create-react-class');
+var Education = require('create-react-class');
 
-    module.exports=Timeline({
+    module.exports=Education({
             render:function(){
                return(
 

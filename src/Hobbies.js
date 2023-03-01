@@ -7,40 +7,29 @@ var Hobbies = require('create-react-class');
                return(
 <ul class="tilesWrap">
 	<li>
-		<h2>01</h2>
-		<h3>Title 1</h3>
+		{/* <h2>Creative Writing</h2> */}
+		<h3>Writing</h3>
 		<p>
-			Lorem Ipsum is simply dummy text of the printing and typesetting   
-			industry. Lorem Ipsum has been the industry's standard dummy text ever 
-			since the 1500s.
+			I enjoy journaling my thoughts and also do creative writing. I have written many short stories and currently am writing a book.
+		</p>
+		<button onClick={(e) => {
+      e.preventDefault();
+      window.location.href='https://makrine.github.io/Writing';
+      }}>Read more</button>
+	</li>
+	<li>
+		{/* <h2>02</h2> */}
+		<h3>Electronics</h3>
+		<p>
+			I have loved tinkering with electronics ever since I was little. Nowadays I enjoy making different projects with Arduino microcontroller. Hence I combine programming with it. 
 		</p>
 		<button>Read more</button>
 	</li>
 	<li>
-		<h2>02</h2>
-		<h3>Title 2</h3>
+		{/* <h2>03</h2> */}
+		<h3>Cycling</h3>
 		<p>
-			When an unknown printer took a galley of type and scrambled it to make 
-			a type specimen book. It has survived not only five centuries.
-		</p>
-		<button>Read more</button>
-	</li>
-	<li>
-		<h2>03</h2>
-		<h3>Title 3</h3>
-		<p>
-			But also the leap into electronic typesetting, remaining essentially 
-			unchanged. It was popularised in the 1960s.
-		</p>
-		<button>Read more</button>
-	</li>
-	<li>
-		<h2>04</h2>
-		<h3>Title 4</h3>
-		<p>
-			With the release of Letraset sheets containing Lorem Ipsum passages,  
-			and more recently with desktop publishing software like Aldus PageMaker 
-			including versions of Lorem Ipsum.
+			It's just really good to ride a bike and cycle with no destination.
 		</p>
 		<button>Read more</button>
 	</li>

@@ -11,8 +11,11 @@ import { Mail } from 'react-feather';
 import Typist from "react-typist";
 import ScrollToTop from "./ScrollToTop.js" 
 import { Link } from 'react-scroll';
-import Timeline from './TimelineThing';
+import Education from './Education';
 import Hobbies from './Hobbies';
+import WorkExperience from './WorkExp';
+import Languages from './Languages';
+import "./Languages.css"
 
 class App extends Component {
 
@@ -67,7 +70,30 @@ class App extends Component {
        duration={500}>
          <span>What I Do</span>
        </Link>
+
        
+
+       <Link
+       to='workExperience'
+       className='menu'
+       id="workXPMenu"
+       spy={true}
+       smooth={true}
+       offset={-70}
+       duration={500}>
+         <span>Work Experience</span>
+       </Link>
+       
+       <Link
+       to='languages'
+       className='menu'
+       spy={true}
+       smooth={true}
+       offset={-70}
+       duration={500}>
+         <span>Languages</span>
+       </Link>
+
        <Link
        to='education'
        className='menu'
@@ -107,11 +133,25 @@ class App extends Component {
        
        
 <div class="content-container">
-  
+
   <div class="box">
     <div class="content" id="whatIDo">
       <h2>What I do</h2>
       <p>stuff</p>
+      </div>
+  </div>
+
+  <div class="box">
+    <div class="content" id="workExperience">
+      <h2>Work Experience</h2>
+      <WorkExperience/>
+      </div>
+  </div>
+
+  <div class="box">
+    <div class="content" id="languages">
+      <h2>Languages</h2>
+      <Languages/>
       </div>
   </div>
   
@@ -119,7 +159,7 @@ class App extends Component {
       <div class="content" id="education">
     <h2>Education</h2>
 
-<Timeline/>
+<Education/>
 
     </div>
   </div>
@@ -187,7 +227,7 @@ class App extends Component {
 </body>
 
 <ScrollToTop/> 
-<footer><span className="rights">© 2022 all rights reserved. </span></footer>
+<footer><span className="rights">© 2023 all rights reserved. </span></footer>
     </div>
   );
 }

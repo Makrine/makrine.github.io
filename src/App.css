@@ -109,6 +109,10 @@ a {
   margin-top: 10px;
 }
 
+#workXPMenu {
+  font-size: 15px;
+}
+
 .menu span{
   position: relative;
   z-index: 3;
