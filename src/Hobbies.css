@@ -3,7 +3,18 @@
 	margin: 50px auto;
 	list-style: none;
 	text-align: center;
+	margin-left: -5%;
+
+	
 }
+
+@media (max-width: 600px) {
+	.tilesWrap {
+		width: 70%;
+		margin-left: -10%;
+	}
+  }
+
 .tilesWrap li {
 	display: inline-block;
 	width: 20%;

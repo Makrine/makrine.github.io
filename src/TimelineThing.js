@@ -7,7 +7,7 @@ var Timeline = require('create-react-class');
                return(
 
                  <div class="container">
-                 <div class="rightbox">
+
                    <div class="rb-container">
                      <ul class="rb">
                        <li class="rb-item" ng-repeat="itembx">
@@ -45,6 +45,6 @@ var Timeline = require('create-react-class');
                
                    </div>
                  </div>
-               </div>);
+               );
             }
         })
