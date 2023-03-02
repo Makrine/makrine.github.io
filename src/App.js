@@ -161,7 +161,7 @@ class App extends Component {
       
       <h3><a href="vaskaGoesTravelling">Vaska Goes Travelling</a></h3>
       <p>I have just recently started working on this game. It is targeted for PC and is based on my stuffed toy story.
-        I had a stuffed called Vaska that I took everywhere I went and took pictures of it as if he was the one that was travelling. However, I lost him in Germany in Feburary, 2023 so I had an idea to create this game. The game starts at a train station where he gets lost and realised that from now on he is free to go anywhre he wants and do anything he wants so he goes travelling. You as a player are free to choose where you can go. And wherever you go, you can take selfies and do stuff.
+        I had a stuffed toy called Vaska that I took everywhere I went and took pictures of it as if he was the one that was travelling. However, I lost him in Germany in Feburary, 2023 so I had an idea to create this game. The game starts at a train station where he gets lost and realised that from now on he is free to go anywhre he wants and do anything he wants so he goes travelling. You as a player are free to choose where you can go. And wherever you go, you can take selfies and do stuff.
       </p>
       <div class="img_container">
         <img src={vaska2} class="img_item"></img>
