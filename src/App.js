@@ -23,6 +23,7 @@ import cdf3 from './assets/CatchDatFish/3.jpg'
 import cdf4 from './assets/CatchDatFish/4.jpg'
 import cdf5 from './assets/CatchDatFish/5.jpg'
 import cdf6 from './assets/CatchDatFish/6.jpg'
+import vaska1 from './assets/Vaska.png'
 
 class App extends Component {
 
@@ -162,12 +163,9 @@ class App extends Component {
         I had a stuffed called Vaska that I took everywhere I went and took pictures of it as if he was the one that was travelling. However, I lost him in Germany in Feburary, 2023 so I had an idea to create this game. The game starts at a train station where he gets lost and realised that from now on he is free to go anywhre he wants and do anything he wants so he goes travelling. You as a player are free to choose where you can go. And wherever you go, you can take selfies and do stuff.
       </p>
       <div class="img_container">
-        <img src={cdf1} class="img_item"></img>
-        <img src={cdf2} class="img_item"></img>
-        <img src={cdf3} class="img_item"></img>
-        <img src={cdf4} class="img_item"></img>
-        <img src={cdf5} class="img_item"></img>
-        <img src={cdf6} class="img_item"></img>
+        <img src={vaska1} class="img_item"></img>
+        <img src={vaska1} class="img_item"></img>
+        <img src={vaska1} class="img_item"></img>
       </div>
       </div>
   </div>
