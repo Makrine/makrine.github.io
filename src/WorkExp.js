@@ -39,7 +39,7 @@ var WorkExperience = require('create-react-class');
                          </div>
                          <div class="item-title">Volunteer at Tbilisi Zoo</div>
                          <div class="work-desc">
-                          <t>I helped in taking care of zoo animals</t>
+                          <t>I was a voluntary assitant zookeeper</t>
                           </div>
                
                        </li>

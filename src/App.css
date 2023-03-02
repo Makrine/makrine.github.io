@@ -153,3 +153,32 @@ footer {
 .rights {
   padding: 0  40px;
 }
+
+
+.cur-projects 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.cur-projects li {
+  float: left;
+  background-color: yellow;
+
+  margin-right: 5px;
+  margin-bottom: 10px;
+
+  display: block;
+  color: blue;
+
+}
+
+.cur-projects li img {
+  width: 20%;
+}
+
+.cur-projects li:hover {
+  background-color: green;
+}

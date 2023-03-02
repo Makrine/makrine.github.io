@@ -5,7 +5,7 @@ var Hobbies = require('create-react-class');
     module.exports=Hobbies({
             render:function(){
                return(
-<ul class="tilesWrap">
+ <ul class="tilesWrap">
 	<li>
 		{/* <h2>Creative Writing</h2> */}
 		<h3>Writing</h3>
@@ -21,7 +21,7 @@ var Hobbies = require('create-react-class');
 		{/* <h2>02</h2> */}
 		<h3>Electronics</h3>
 		<p>
-			I have loved tinkering with electronics ever since I was little. Nowadays I enjoy making different projects with Arduino microcontroller. Hence I combine programming with it. 
+			I have loved tinkering with electronics ever since I was little. Nowadays I enjoy making different projects with Arduino microcontrollers. Hence I combine programming with it. 
 		</p>
 		<button>Read more</button>
 	</li>
@@ -33,8 +33,8 @@ var Hobbies = require('create-react-class');
 		</p>
 		<button>Read more</button>
 	</li>
-</ul>
-                 
+</ul> 
+      
                 );
             }
         })
