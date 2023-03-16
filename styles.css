@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "RetroGaming"; 
+    src: url('Font/RetroGaming.ttf') format('truetype'); 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-left: 20px;
+    text-align: center;
+
+}
+hr {
+    border: none;
+    border-top: 10px dotted black;
+    height: 1px;
+    width: 50%;
+  }
+
+
+.page
+{
+    display: inline-block;
+    text-align: left;
+
+}
+h1 {
+    font-family: "RetroGaming";
+    font-size: 2.5rem;
+    color: #333;
+
+}
+
+.image
+{
+    width: 3%;
+}
+
+
+h2 {
+font-size: 1.5rem;
+color: #555;
+margin-top: 2rem;
+margin-bottom: 1rem;
+
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+li {
+margin-bottom: 1rem;
+}
+
+a {
+color: #0077cc;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}

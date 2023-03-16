@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9MTLS9QWY8"></script>
@@ -10,115 +10,58 @@
 
   gtag('config', 'G-9MTLS9QWY8');
 </script>
-    
-    
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Makrina Tskipurishvili</title>
-    <link rel="icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <title>Makrina Tskipurishvili (Portfolio)</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/png" href="./Assets/favicon.ico">
+
   </head>
   <body>
-    <div id="unity-container" style="width:100%; height:100%;">
-      <canvas id="unity-canvas" width=auto height=auto></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
-        </div>
-      </div>
-      <div id="unity-warning"> </div>
-    </div>
-    <script>
-      var container = document.querySelector("#unity-container");
-      var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
-      var warningBanner = document.querySelector("#unity-warning");
+    <h1>Makrina Tskipurishvili</h1>
+    <hr>
 
-      // Shows a temporary message banner/ribbon for a few seconds, or
-      // a permanent error message on top of the canvas if type=='error'.
-      // If type=='warning', a yellow highlight color is used.
-      // Modify or remove this function to customize the visually presented
-      // way that non-critical warnings and error messages are presented to the
-      // user.
-      function unityShowBanner(msg, type) {
-        function updateBannerVisibility() {
-          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
-        }
-        var div = document.createElement('div');
-        div.innerHTML = msg;
-        warningBanner.appendChild(div);
-        if (type == 'error') div.style = 'background: red; padding: 10px;';
-        else {
-          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
-          setTimeout(function() {
-            warningBanner.removeChild(div);
-            updateBannerVisibility();
-          }, 5000);
-        }
-        updateBannerVisibility();
-      }
+    <div class="page">
+    <h2 class="header">
+      <img src="Assets/Unity.png" alt="unity" class="image" />
+       Unity related projects</h2>
+    <ul>
+      <li><a href="https://store.steampowered.com/app/2011960/Sunny_Grove/" target="_blank">My previous job project: Sunny Grove</a><code> Unity, C#, Blender</code></li>
+      <li><a href="https://makrine.github.io/GamifiedCV" target="_blank">Gamified CV (WebGL)</a><code> Unity, C#, Adobe Photoshop, Adobe Illustrator</code></li>
+      <li><a href="https://makrine.itch.io/3d-puzzle-generator" target="_blank">3D Puzzle Generator</a><code> Unity, C#, Blender, Adobe Photoshop</code></li>
+      <li><a href="https://makrine.itch.io/boys-vs-girls-game" target="_blank">Freelance Project: Boys VS Girls</a><code> Unity, C#, Adobe Photoshop</code></li>
+      <li><a href="CATchDatFishScreens.html" target="_blank">Android game: Catch Dat Fish (WIP)</a><code> Unity, C#, Firebase SDK, Adobe Photoshop, Adobe Illustrator</code></li>
+      <li><a href="VaskaGoesTravelling.html" target="_blank">Newly started game: Vaska Goes Travelling (WIP)</a><code> Unity, C#, Blender, Adobe Photoshop, Adobe Illustrator</code></li>
+    </ul>
+    <h2>
+      <img src="Assets/py.png" alt="py" class="image" />
+       PyGame Games</h2>
+    <ul>
+        <li><a href="https://makrine.itch.io/space-runner" target="_blank">Space Runner</a><code> Python</code></li>
+    </ul>
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Build.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/Build.data.unityweb",
-        frameworkUrl: buildUrl + "/Build.framework.js.unityweb",
-        codeUrl: buildUrl + "/Build.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "MakrinaTskipurishviliResumePage",
-        productVersion: "1.0",
-        showBanner: unityShowBanner,
-      };
+    <h2>
+      <img src="Assets/programming.png" alt="programming" class="image" />
+       non-game related programming projects</h2>
+    <ul>
+      <li><a href="https://github.com/Makrine/ArduinoTicTacToe" target="_blank">Arduino TicTacToe </a><code> C++</code></li>
+      <li><a href="https://github.com/Makrine/LedMatrixController" target="_blank">LED Matrix controller without additional drivers (Arduino Library)</a><code> C++</code></li>
+      <li><a href="https://github.com/Makrine/ArduinoTuringMachine" target="_blank">Universal Turing Machine on Arduino</a><code> C++</code></li>
+      <li><a href="https://github.com/Makrine/HMRO_generator" target="_blank">HMRO Test Cases Generator</a><code> C++</code></li>
+      <li><a href="https://makrine.github.io/NScards/" target="_blank">NationStates tool: Cards</a><code> HTML, CSS, JavaScript</code></li>
+      <li><a href="https://github.com/Makrine/cardsPlusPlus" target="_blank">NationStates tool: CardsPlusPlus (Chrome and Firefox extention)</a><code> JavaScript, HTML</code></li>
+      <li><a href="https://github.com/Makrine/TelegramAutoResponder" target="_blank">Telegram Auto Responder using OpenAI API</a><code> Python</code></li>
+      <li><a href="https://github.com/Makrine/autoLoginNS" target="_blank">Auto Login to NationStates</a><code> Shell</code></li>
+      <li><a href="https://makrine.github.io/ReactJSPage/" target="_blank">CV made with ReactJS</a><code> ReactJS</code></li>
+    </ul>
 
-      // By default Unity keeps WebGL canvas render target size matched with
-      // the DOM size of the canvas element (scaled by window.devicePixelRatio)
-      // Set this to false if you want to decouple this synchronization from
-      // happening inside the engine, and you would instead like to size up
-      // the canvas DOM size and WebGL render target sizes yourself.
-      // config.matchWebGLToCanvasSize = false;
-
-      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        // Mobile device style: fill the whole browser client area with the game canvas:
-
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
-        container.className = "unity-mobile";
-
-        // To lower canvas resolution on mobile devices to gain some
-        // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
-
-        canvas.style.width = window.innerWidth + 'px';
-        canvas.style.height = window.innerHeight + 'px';
-
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
-      } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
-      }
-
-      loadingBar.style.display = "block";
-
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-      script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-          progressBarFull.style.width = 100 * progress + "%";
-        }).then((unityInstance) => {
-          loadingBar.style.display = "none";
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
-    </script>
+    <h2>
+      <img src="Assets/email.png" alt="contact" class="image" />
+       Contact me at</h2>
+    <ul>
+        <li><a href="mailto:tskipurishvilimakrina@gmail.com?subject=Hello!" target="_blank">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/makrina-tskipurishvili-9b0407236/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.facebook.com/m.tskipurishvili" target="_blank">Facebook</a></li>
+    </ul>
+  </div>
+  
   </body>
 </html>
