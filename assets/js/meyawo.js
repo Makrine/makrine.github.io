@@ -109,3 +109,4 @@ window.onload = function() {
             });
     });
 }
+var currentIndex = 0;

@@ -183,15 +183,40 @@
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#portfolio" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/CatchDatFish.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <div class="portfolio-card">
+                        <script>
+                            function shuffle_images()
+                            {
+                                console.log("shuffle called");
+                                var doc = document.getElementById("CDF");
+
+
+                                const img1 = "assets/imgs/CatchDatFish.jpg";
+                                const img2 = "assets/imgs/2.jpg";
+                                const img3 = "assets/imgs/3.jpg";
+                                const img4 = "assets/imgs/4.jpg";
+                                const img5 = "assets/imgs/5.jpg";
+                                const img6 = "assets/imgs/6.jpg";
+
+                                var images =[img1, img2, img3, img4, img5, img6];
+
+                                currentIndex += 1;
+                                if(currentIndex >= 6) currentIndex = 0;
+
+                                doc.src = images[currentIndex];
+
+                            }
+                        </script>
+                        <button id="myButton" onclick="shuffle_images()">
+                        <img id="CDF" class="portfolio-card-img" src="assets/imgs/CatchDatFish.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span>
                             <span class="portfolio-card-caption">
                                 <h4>CATch Dat Fish</h5>
                                 <p class="font-weight-normal">My current hypre-casual game targeted at Android. The goal of the game is to catch as many fish as possible. The game implements Firebase SDK and Google Play Services which makes it possible to compete against your friends, collect items and earn achievements. I am using Unity, C#, Adobe Photoshop and Adobe Illustrator for this game.</p>
                             </span>                         
-                        </span>                         
-                    </a>
+                        </span>     
+                    </button>                    
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <a href="https://makrine.github.io/GamifiedCV" class="portfolio-card" target="_blank">
@@ -307,7 +332,7 @@
 	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
+    <script type="text/javascript" src="assets/js/meyawo.js"></script>
 
 </body>
 </html>
